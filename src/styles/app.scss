@@ -1,0 +1,18 @@
+@import './typography';
+
+.main-padding{
+    padding-right:15%;
+    padding-left:15%;
+
+    @media screen and (max-width:767px){
+        padding-right:1rem;
+        padding-left:1rem;
+    }
+}
+
+
+.btn{
+    &:focus, &:active,&:hover{
+        outline:none;
+    }
+}
